@@ -1,4 +1,5 @@
 # Homework #1: Vis in the wild
+You can view my work at: https://avinash-basic-html.netlify.app/
 
 The purpose of this assignment is to get you thinking about visualization from a design persepective and to give you a bit of practice and exposure to making a web page (programming in HTML and CSS).
 
