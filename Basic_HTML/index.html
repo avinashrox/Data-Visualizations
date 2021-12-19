@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<title>CSE 578 Homework #1: Avinash Senthil Kumaran</title>
+	</head>
+	<style>
+		.container {
+			maxwidth: 970px;
+		}
+		h2, h3, h4, span {
+			text-align: center;
+		}
+		img {
+			width:100%;
+			border: 1px solid gray;
+		}
+		p {
+			text-align: justify;
+			text-justify: inter-word;
+		}
+	</style>
+    <body>
+	    <div class="container">
+			<header>
+				<h2 style=>Homework #1 - Vis in the Wild</h2>
+				<h3>Avinash Senthil Kumaran&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Sep 6 2021</h3>
+			</header>
+			<hr>
+			<img src="imgs/GHG.png" alt="The cool visualization example that I found!">
+			<hr>
+			<h4>Green House Gas Emissions</h4>
+			<div style="width:100%;text-align:center;">
+				<a href="https://www.climatewatchdata.org/embed/ghg-emissions%3FbreakBy%3Dcountries%26chartType%3Dline%26end_year%3D2018%26regions%3DWORLD%26sectors%3Dtotal-including-lucf%26start_year%3D1990" target="_blank">Data Visualization</a></div>
+			<div style="width:100%;text-align:center;">	
+				<a href="https://www.climatewatchdata.org/data-explorer/historical-emissions?historical-emissions-data-sources=cait&historical-emissions-gases=&historical-emissions-regions=&historical-emissions-sectors=&page=1" target="_blank">Dataset</a></div>
+
+			<p>
+				This visualization shows the trend of history of Human-caused Green House Gas emissions throughout the world.
+			</p>
+			<p>
+				This visualization can be used by <b>environmentalists</b> to study how GHG(Green House Gas) emissions have contributed to global warming over decades. It can also be used by <b>General population</b> to spread awareness about the quantity of consumption of Green House Gases over the recent years and how it had affected our ozone layer. This might decrease the consumption of non-renewable resources and increase the consumption of renewable resources.
+			</p>
+			<p>
+				<b>Domain specific language</b>: The dataset contains the information about each country’s Green House Gas Emission in each sector from different sources of information.<br>
+				<b>Data abstraction language:</b><br>
+				<b>Dataset type</b>: Table<br>
+				<b>Data attribute types</b>:<br>
+				<ul>
+					<li>Countries: Categorical</li>
+					<li>Data Source : Categorical</li>
+					<li>Types of Sectors : Categorical</li>
+					<li>Type of GHG : Categorical</li>
+					<li>Years(1990,….,2018) : (Each attribute’s meta data is a year and the attributes denote the quantity of GHG emissions) This is Ordered,Quantitative.</li>
+				</ul>
+				</p>
+			<p>
+				<b>Tasks:</b>
+				<ul>
+				<li>Find the country which has highest GHG emission according to the data source selected(CAIT or PIK or GCP or UNFCC) in a year.</li>
+  				<li>Find the country which has highest GHG emission from specific sector(Options include Agriculture, Bunker Fuels, Constructions, Industrial Processes, Waste and Forestry) in a year.</li>
+				<li>Compare GHG emission between 2 countries in a year.</li>
+				<li>Find country which has highest GHG emission based on GHG selected (CO2,CH4,F-Gas,N2O) in a year.</li>
+				<li>Find sector which has highest GHG emission in a year.</li>
+				</ul>
+			</p>
+			<p>
+				<b>Visualization Idiom</b>:
+				<ul> 
+				<li>Items: Dots</li>
+				<li>Colors : Denote different Countries/Sectors(based on the option selected)</li>
+				<li>Vertical position: Quantity of GHG emission</li>
+				</ul>
+				<b>Interaction Idiom:</b>
+				<ul>
+					<li>On mouse-over : Line connects countries in same year. It also mentions the country name with colour code along with the quantity of GHG emission.</li>
+					<li>Options to choose dataset, Countries, Type of GHG and Sectors are provided.</li>
+					<li>Seek: Choose the interval of years to be plotted.</li>
+				</ul>
+			</p>
+			<p>
+				This is a good visualization. This provides a lot of information with a variety of options to the user. The user can easily retrieve the data he needs by selecting the specific Data source, Countries, Type of GHG and Sectors. It also enables us to compare between selected Countries or Sectors by plotting their graphs alone. So, we can say that this is user-friendly. It also has the option to choose whether the information should be depicted in line chart or stacked area chart. The colours makes this representation visually appealing.
+			</p>
+		</div>
+	</body>
+</html>
