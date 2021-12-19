@@ -1,4 +1,6 @@
-# Argumentative Vis
+# Argumentative Visualization
+
+You can view my work at: https://avinash-argumentative-visualization.netlify.app/
 
 In this homework, you will create a pair of data visualizations that argue for opposing viewpoints, using the same base dataset.
 
