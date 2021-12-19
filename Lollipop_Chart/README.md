@@ -1,5 +1,7 @@
 # Homework #2: D3 Lollipop
 
+You can view my work at: https://avinash-lollipop-chart.netlify.app/
+
 The purpose of this homework is to teach you some basic grammar and functionalities contained in D3.js:
 
 * Loading two datasets
